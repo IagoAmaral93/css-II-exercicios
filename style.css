@@ -1,24 +1,43 @@
+
 header{
-    border-bottom: 1px solid black;
-  }
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+main{
+  width: 800px;
+  position: relative;
+  left: 30vw;
+}
+
+aside{
+  width: 180px;
+  border: 1px solid black;
+  position: fixed;
+  right: 0;
+  text-align: center;
+
+}
+
+footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   
-  main{
-    width: 800px;
-  }
-  
-  aside{
-    width: 180px;
-    border: 1px solid black;
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    width: 100%;
-  }
-  
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-  }
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-family: serif;
+} 
+button:active{
+  color: green;
+  background-color: orange;
+}
+
+button:hover{
+  cursor: pointer;
+}
